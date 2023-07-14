@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KES", "KES\KES.csproj", "{DFD8756B-1726-46F5-9938-48E57DDD8E0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D7BBDB3B-F8B4-4B53-B82B-7C4AF8B2A74A}"
+	ProjectSection(SolutionItems) = preProject
+		..\CSCFileService\Changes.md = ..\CSCFileService\Changes.md
+		..\CSCFileService\License.md = ..\CSCFileService\License.md
+		..\CSCFileService\Readme.md = ..\CSCFileService\Readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{7F253DF2-3842-476A-91B6-C120B80DC66B}"
+	ProjectSection(SolutionItems) = preProject
+		..\CSCFileService\.github\FUNDING.yml = ..\CSCFileService\.github\FUNDING.yml
+		..\CSCFileService\.github\ISSUE_TEMPLATE.md = ..\CSCFileService\.github\ISSUE_TEMPLATE.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFD8756B-1726-46F5-9938-48E57DDD8E0A}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{DFD8756B-1726-46F5-9938-48E57DDD8E0A}.Debug|Any CPU.Build.0 = Debug|x64
+		{DFD8756B-1726-46F5-9938-48E57DDD8E0A}.Debug|Any CPU.Deploy.0 = Debug|x64
+		{DFD8756B-1726-46F5-9938-48E57DDD8E0A}.Debug|ARM.ActiveCfg = Debug|ARM
+		{DFD8756B-1726-46F5-9938-48E57DDD8E0A}.Debug|ARM.Build.0 = Debug|ARM
+		{DFD8756B-1726-46F5-9938-48E57DDD8E0A}.Debug|ARM.Deploy.0 = Debug|ARM
+		{DFD8756B-1726-46F5-9938-48E57DDD8E0A}.Debug|ARM64.ActiveCfg = Debug|x64
+		{DFD8756B-1726-46F5-9938-48E57DDD8E0A}.Debug|ARM64.Build.0 = Debug|x64
+		{DFD8756B-1726-46F5-9938-48E57DDD8E0A}.Debug|ARM64.Deploy.0 = Debug|x64
+		{DFD8756B-1726-46F5-9938-48E57DDD8E0A}.Debug|x64.ActiveCfg = Debug|x64
+		{DFD8756B-1726-46F5-9938-48E57DDD8E0A}.Debug|x64.Build.0 = Debug|x64
+		{DFD8756B-1726-46F5-9938-48E57DDD8E0A}.Debug|x64.Deploy.0 = Debug|x64
+		{DFD8756B-1726-46F5-9938-48E57DDD8E0A}.Debug|x86.ActiveCfg = Debug|x86
+		{DFD8756B-1726-46F5-9938-48E57DDD8E0A}.Debug|x86.Build.0 = Debug|x86
+		{DFD8756B-1726-46F5-9938-48E57DDD8E0A}.Debug|x86.Deploy.0 = Debug|x86
+		{DFD8756B-1726-46F5-9938-48E57DDD8E0A}.Release|Any CPU.ActiveCfg = Release|x64
+		{DFD8756B-1726-46F5-9938-48E57DDD8E0A}.Release|Any CPU.Build.0 = Release|x64
+		{DFD8756B-1726-46F5-9938-48E57DDD8E0A}.Release|Any CPU.Deploy.0 = Release|x64
+		{DFD8756B-1726-46F5-9938-48E57DDD8E0A}.Release|ARM.ActiveCfg = Release|ARM
+		{DFD8756B-1726-46F5-9938-48E57DDD8E0A}.Release|ARM.Build.0 = Release|ARM
+		{DFD8756B-1726-46F5-9938-48E57DDD8E0A}.Release|ARM.Deploy.0 = Release|ARM
+		{DFD8756B-1726-46F5-9938-48E57DDD8E0A}.Release|ARM64.ActiveCfg = Release|x64
+		{DFD8756B-1726-46F5-9938-48E57DDD8E0A}.Release|ARM64.Build.0 = Release|x64
+		{DFD8756B-1726-46F5-9938-48E57DDD8E0A}.Release|ARM64.Deploy.0 = Release|x64
+		{DFD8756B-1726-46F5-9938-48E57DDD8E0A}.Release|x64.ActiveCfg = Release|x64
+		{DFD8756B-1726-46F5-9938-48E57DDD8E0A}.Release|x64.Build.0 = Release|x64
+		{DFD8756B-1726-46F5-9938-48E57DDD8E0A}.Release|x64.Deploy.0 = Release|x64
+		{DFD8756B-1726-46F5-9938-48E57DDD8E0A}.Release|x86.ActiveCfg = Release|x86
+		{DFD8756B-1726-46F5-9938-48E57DDD8E0A}.Release|x86.Build.0 = Release|x86
+		{DFD8756B-1726-46F5-9938-48E57DDD8E0A}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7F253DF2-3842-476A-91B6-C120B80DC66B} = {D7BBDB3B-F8B4-4B53-B82B-7C4AF8B2A74A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8CFE8127-61CC-4022-8E6C-D19340425CA8}
+	EndGlobalSection
+EndGlobal

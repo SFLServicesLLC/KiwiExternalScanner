@@ -1,0 +1,71 @@
+﻿<Page
+    x:Class="RangeTrainerTutor.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RangeTrainerTutor"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:Windows10version1809="http://schemas.microsoft.com/winfx/2006/xaml/presentation?IsApiContractPresent(Windows.Foundation.UniversalApiContract, 7)"
+    mc:Ignorable="d"
+    Width="800" Height="480">
+
+    <Grid Width="800" Height="480" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" AllowFocusOnInteraction="False" UseLayoutRounding="False">
+        <Button x:Name="Enterbutton" Content="ENTER" Margin="35,143,0,0" VerticalAlignment="Top" 
+                Width="202" Height="97" ClickMode="Press"
+                Background="Green" FontSize="40" FontWeight="Bold" IsRightTapEnabled="False" IsTapEnabled="False" IsDoubleTapEnabled="False" 
+                FocusVisualMargin="-50,-50,-50,-50" IsHoldingEnabled="False" Click="Enterbutton_Click" />
+        <TextBox x:Name="TimeLefttextBox" HorizontalAlignment="Left" Margin="304,10,0,0" Text="Scan Your Docket" VerticalAlignment="Top" 
+                 Width="184" FontSize="20" FontWeight="Bold" IsReadOnly="True" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" BorderThickness="0,0,0,0" AllowFocusOnInteraction="False" UseLayoutRounding="False"/>
+        <TextBox x:Name="Time" HorizontalAlignment="Left" Margin="501,425,0,0" Text="Clock" VerticalAlignment="Top" Width="283" IsReadOnly="True" Height="37" FontSize="22" FontWeight="Bold" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" BorderThickness="0,0,0,0" AllowFocusOnInteraction="False" UseLayoutRounding="False" TextAlignment="Center"/>
+        <Button x:Name="Onebutton" Content="1" Margin="517,83,0,0" VerticalAlignment="Top" 
+            Width="55" Height="65" ClickMode="Press"
+            Background="#FFD9781E" FontSize="40" FontWeight="Bold" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" 
+            FocusVisualMargin="-50,-50,-50,-50" IsTapEnabled="False" Click="Onebutton_Click"/>
+        <Button x:Name="Twobutton" Content="2" Margin="585,83,0,0" VerticalAlignment="Top" 
+            Width="55" Height="65" ClickMode="Press"
+            Background="#FFD9781E" FontSize="40" FontWeight="Bold" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" 
+            FocusVisualMargin="-50,-50,-50,-50" IsTapEnabled="False" Click="Twobutton_Click"/>
+        <Button x:Name="Threebutton" Content="3" Margin="653,83,0,0" VerticalAlignment="Top" 
+            Width="55" Height="65" ClickMode="Press"
+            Background="#FFD9781E" FontSize="40" FontWeight="Bold" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" 
+            FocusVisualMargin="-50,-50,-50,-50" IsTapEnabled="False" Click="Threebutton_Click"/>
+        <Button x:Name="Fourbutton" Content="4" Margin="517,164,0,0" VerticalAlignment="Top" 
+            Width="55" Height="65" ClickMode="Press"
+            Background="#FFD9781E" FontSize="40" FontWeight="Bold" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" 
+            FocusVisualMargin="-50,-50,-50,-50" IsTapEnabled="False" Click="Fourbutton_Click"/>
+        <Button x:Name="Fivebutton" Content="5" Margin="585,164,0,0" VerticalAlignment="Top" 
+            Width="55" Height="65" ClickMode="Press"
+            Background="#FFD9781E" FontSize="40" FontWeight="Bold" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" 
+            FocusVisualMargin="-50,-50,-50,-50" IsTapEnabled="False" Click="Fivebutton_Click"/>
+        <Button x:Name="Sixbutton" Content="6" Margin="653,164,0,0" VerticalAlignment="Top" 
+            Width="55" Height="65" ClickMode="Press"
+            Background="#FFD9781E" FontSize="40" FontWeight="Bold" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" 
+            FocusVisualMargin="-50,-50,-50,-50" IsTapEnabled="False" Click="Sixbutton_Click"/>
+        <Button x:Name="Sevenbutton" Content="7" Margin="517,248,0,0" 
+            Width="55" Height="65" ClickMode="Press"
+            Background="#FFD9781E" FontSize="40" FontWeight="Bold" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" 
+            FocusVisualMargin="-50,-50,-50,-50" IsTapEnabled="False" VerticalAlignment="Top" Click="Sevenbutton_Click"/>
+        <Button x:Name="Eightbutton" Content="8" Margin="585,248,0,0" 
+            Width="55" Height="65" ClickMode="Press"
+            Background="#FFD9781E" FontSize="40" FontWeight="Bold" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" 
+            FocusVisualMargin="-50,-50,-50,-50" IsTapEnabled="False" VerticalAlignment="Top" Click="Eightbutton_Click"/>
+        <Button x:Name="Ninebutton" Content="9" Margin="653,248,0,0" 
+            Width="55" Height="65" ClickMode="Press"
+            Background="#FFD9781E" FontSize="40" FontWeight="Bold" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" 
+            FocusVisualMargin="-50,-50,-50,-50" IsTapEnabled="False" VerticalAlignment="Top" Click="Ninebutton_Click"/>
+        <Button x:Name="Zerobutton" Content="0" Margin="585,329,0,0" VerticalAlignment="Top" 
+            Width="55" Height="65" ClickMode="Press"
+            Background="#FFD9781E" FontSize="40" FontWeight="Bold" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" 
+            FocusVisualMargin="-50,-50,-50,-50" IsTapEnabled="False" Click="Zerobutton_Click"/>
+        <TextBox x:Name="DocketNumberTextbox" HorizontalAlignment="Left" Margin="35,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="202" Height="43" FontSize="20" FontWeight="Bold" KeyDown="DocketNumberTextbox_KeyDown"/>
+        <TextBox x:Name="TimeLefttextBox_Copy" HorizontalAlignment="Left" Margin="23,43,0,0" Text="Scan Your Docket" VerticalAlignment="Top" 
+            Width="184" FontSize="20" FontWeight="Bold" IsReadOnly="True" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" BorderThickness="0,0,0,0" AllowFocusOnInteraction="False" UseLayoutRounding="False"/>
+        <Button x:Name="Clearbutton" Content="CLEAR" Margin="256,84,0,0" VerticalAlignment="Top" 
+            Width="81" Height="43" ClickMode="Press" FontSize="20" FontWeight="Bold" IsRightTapEnabled="False" IsTapEnabled="False" IsDoubleTapEnabled="False" 
+            FocusVisualMargin="-50,-50,-50,-50" IsHoldingEnabled="False" Background="#FFDCC59F" Click="Clearbutton_Click" />
+        <TextBox x:Name="MessageTextBox" HorizontalAlignment="Left" Margin="35,289,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="453" Height="173" FontSize="14" 
+            FontWeight="Bold" ScrollViewer.VerticalScrollBarVisibility="Visible"  ScrollViewer.HorizontalScrollBarVisibility="Disabled" TextChanged="MessageTextBox_TextChanged" />
+        <TextBox x:Name="Messagecenter" HorizontalAlignment="Left" Margin="23,248,0,0" Text="Messages:" VerticalAlignment="Top" 
+            Width="196" FontSize="20" FontWeight="Bold" IsReadOnly="True" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" BorderThickness="0,0,0,0" AllowFocusOnInteraction="False" UseLayoutRounding="False"/>
+    </Grid>
+</Page>
