@@ -5,17 +5,17 @@ VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KES", "KES\KES.csproj", "{DFD8756B-1726-46F5-9938-48E57DDD8E0A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D7BBDB3B-F8B4-4B53-B82B-7C4AF8B2A74A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solutions Items", "Solutions Items", "{84E70305-0E61-4C7D-BED9-DCA504962BAE}"
 	ProjectSection(SolutionItems) = preProject
-		..\CSCFileService\Changes.md = ..\CSCFileService\Changes.md
-		..\CSCFileService\License.md = ..\CSCFileService\License.md
-		..\CSCFileService\Readme.md = ..\CSCFileService\Readme.md
+		Changes.md = Changes.md
+		License.md = License.md
+		Readme.md = Readme.md
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{7F253DF2-3842-476A-91B6-C120B80DC66B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{9E247668-938A-40DB-ADFC-38BD6F99E79A}"
 	ProjectSection(SolutionItems) = preProject
-		..\CSCFileService\.github\FUNDING.yml = ..\CSCFileService\.github\FUNDING.yml
-		..\CSCFileService\.github\ISSUE_TEMPLATE.md = ..\CSCFileService\.github\ISSUE_TEMPLATE.md
+		.github\FUNDING.yml = .github\FUNDING.yml
+		.github\ISSUE_TEMPLATE.md = .github\ISSUE_TEMPLATE.md
 	EndProjectSection
 EndProject
 Global
@@ -67,7 +67,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{7F253DF2-3842-476A-91B6-C120B80DC66B} = {D7BBDB3B-F8B4-4B53-B82B-7C4AF8B2A74A}
+		{9E247668-938A-40DB-ADFC-38BD6F99E79A} = {84E70305-0E61-4C7D-BED9-DCA504962BAE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8CFE8127-61CC-4022-8E6C-D19340425CA8}
